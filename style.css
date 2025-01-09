@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+/* header end */
+
+.navbar{
+    position: sticky;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(241, 54, 54);
+    margin-right: -35px;
+
+}
+.btn{
+    height: 40px;
+    width: 40%;
+    border: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700
+    ;
+}
+.navbar-nav{
+    position: relative;
+    bottom: 8px;
+}
+/* header end */
+
+.main{
+    background: url(Images/pexels-janetrangdoan-1128678.jpg) no-repeat;
+    background-size: cover;
+    
+    height: 100vh;
+    width:  100%;
+    
+
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.btn-1{
+    height: 45px;
+    width: 30%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.col-lg-7{
+    position: relative;
+    left: -65px;
+    top: 100px;
+}
+.section-two img{
+    width: 80px;
+    margin-bottom: 10px;
+   
+}
+.product h1{
+    font-weight: 700;
+    margin-left: 20px;
+}
+.img{
+    width: 83%;
+    
+}
+.trending-text{
+    padding-bottom: 50px;
+}
+.btn-1:hover{
+    background-color: brown;
+    transition: 0.5s;
+}
+.card:hover{
+    box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.64);
+    -webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.64);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.64);
+}
+
+
+.products{
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.invalid-feedback,
+.empty-feedback {
+  display: none;
+}
+
+.was-validated :placeholder-shown:invalid ~ .empty-feedback {
+  display: block;
+}
+
+.was-validated :not(:placeholder-shown):invalid ~ .invalid-feedback {
+  display: block;
+}
+
+.is-invalid,
+.was-validated :invalid {
+  border-color: #dc3545;
+}
+
+form {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+#Contact h1{
+    
+}
+#Contact p{
+    color:  rgb(248, 26, 92);
+    
+}
+footer{
+    background-color: #dc3545;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+footer h3{
+    font-size: 18px;
+    color: white;
+    padding: 5px;
+    position: relative;
+    top: 8px;
+}
+footer p{
+    color: white;
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 8px;
+}
+footer span{
+    
+    font-weight: 500;
+
+
+}
+
+#contact.container{
+    justify-content: center;
+}
+
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Responsive image */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .container {
+        padding: 10px;
+    }
+    .products{
+        margin-left: 0;
+        margin-bottom: 200px;
+    }
+}
